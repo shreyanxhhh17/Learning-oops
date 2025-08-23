@@ -13,8 +13,18 @@ class Dog{
     }
 };
 
+class Cat{
+  public:
+    void sound(){
+      cout<<"Meow!";
+    }
+};
+
 int main(){
   Dog d1;
   d1.bark();
+
+  Cat c1;
+  c1.sound();
   return 0;
 }
